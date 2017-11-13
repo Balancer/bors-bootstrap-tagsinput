@@ -1,0 +1,22 @@
+{
+    "name": "bors/bootstrap-tagsinput",
+
+    "authors": [
+        { "name": "Balancer", "email": "balancer@balancer.ru" }
+    ],
+
+    "require": {
+        "balancer/bors-theme-bootstrap3": "*",
+        "bors/jquery": "*"
+    },
+
+	"suggest": {
+		"bower-asset/bootstrap-tagsinput": "If you want to use a local asset instead of a CDN"
+	},
+
+	"autoload": {
+		"psr-4": {
+			"B2\\Bootstrap\\": "./"
+		}
+	}
+}

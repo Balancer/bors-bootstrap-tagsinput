@@ -6,7 +6,7 @@
     ],
 
     "require": {
-        "balancer/bors-theme-bootstrap3": "*",
+        "bors/bootstrap3": "*",
         "bors/jquery": "*"
     },
 

@@ -7,7 +7,8 @@ class TagsInput
 	static function load()
 	{
 		\B2\jQuery::load();
-		\B2\Bootstrap3::load();
+//		Conflict with AdminLTE
+//		\B2\Bootstrap3::load();
 
 		if(empty(\bors::$bower_asset_packages['bower-asset/bootstrap-tagsinput']))
 		{
